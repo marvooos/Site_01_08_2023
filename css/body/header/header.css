@@ -1,0 +1,102 @@
+.header__container {
+
+}
+.header__menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 320px 0px 320px;
+}
+.logotype {
+    margin: 0px 64px 0px 0px;
+}
+.header__nav {
+    width: 368px;
+    margin: 10px 0px 0px 0px;
+}
+.header__link {
+    margin: 0px 34px 0px 0px;
+    color: #06060B;
+    font-family: Muller;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.header__wallet {
+    color: #FFF;
+    text-align: center;
+    font-family: Muller;
+    font-size: 16px;
+    font-style: normal;
+    margin: 0px 0px 10px 0px;
+    font-weight: 700;
+    line-height: normal;
+    height: 50px;
+    width: 132px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 77px;
+    background: var(--black, #07060B);
+}
+.block-flex {
+    display: flex;
+    align-items: flex-start;
+}
+.header {
+    background: #07060B;
+    display: flex;
+    padding: 0px 0px 0px 320px;
+}
+.header__container_title {
+    margin: 160px 35px 0px 0px;
+}
+.header__title {
+    color: #FFF;
+    font-family: 'Russo One', sans-serif;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0px 0px 36px 0px;
+}
+.header__buy {
+    color: #07060B;
+    text-align: center;
+    font-family: Muller;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0px 32px 0px 0px;
+    display: inline-flex;
+    width: 176px;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;  
+    border-radius: 40px;
+    background: var(--button-cta, linear-gradient(180deg, #46F4DB 27.08%, #57D272 100%));
+}
+.header__avtor {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 5px;
+    border-radius: 40px;
+    background: linear-gradient(180deg, #46F4DB 27.08%, #57D272 100%);
+}
+.avator__title{
+    padding: 20px 50px;
+    color: #FFF;
+    text-align: center;
+    font-family: Muller;
+    font-size: 20px;
+    font-style: normal;
+    border-radius: 40px;
+    font-weight: 700;
+    line-height: normal; 
+    background: black;
+}

@@ -1,0 +1,68 @@
+.top__sales__container {
+    padding: 90px 320px 90px 320px;
+    background: var(--black, #07060B);
+}
+.top__sales__title {
+        color: var(--white, #FFF);
+    font-family: Russo One;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.showcase__sale {
+    margin: 32px 0px 0px 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.sale {
+    display: flex;
+    border-radius: 40px;
+    width: 624px;
+    margin: 0px 32px 32px 0px;
+    height: 174px;
+    background: var(--white, #FFF);
+}
+.sale__user_container {
+    display: flex;
+    align-items: center;
+    margin: 0px 0px 9px 0px;
+}
+.sale__icon__user {
+    margin: 0px 8px 0px 0px;
+}
+.sale__name__user {
+    color: var(--black, #07060B);
+    font-family: Muller;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.sale__stiker__background__container {
+    border-radius: 40px 0px 0px 40px;
+    background: var(--grey-light, #EDEDF2);
+}
+.sale__stiker {
+    margin: 16px 0px 16px 16px;
+}
+.sale__info__stiker__block {
+    padding: 32px 0px 32px 32px;
+}
+.sale__name_user {
+    color: var(--black, #07060B);
+    font-family: Muller;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0px 0px 9px 0px;
+}
+.sale__bet_money {
+    color: var(--black, #07060B);
+    font-family: Muller;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}       

@@ -1,0 +1,116 @@
+.filling_in_the_data {
+    background: var(--red, #D13130);
+    display: flex;
+    padding: 0px 320px 0px 320px;
+}
+.filling__container {
+     margin: 32px 0px 0px 0px;
+}
+.filling__title {
+    color: var(--white, #FFF);
+    font-family: Russo One;
+    font-size: 20px;
+    margin: 0px 0px 32px 0px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.filling__block__name,
+.filling__block__email {
+    margin: 0px 0px 16px 0px;
+    display: flex;
+    width: 428px;
+    height: 70px;
+    padding: 0px 0px 0px 32px;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 40px;
+    background: var(--black, #07060B);
+    outline: none !important;
+    color: var(--grey-light, #EDEDF2);
+    font-family: Muller;
+    font-size: 20px;
+    font-style: normal;
+
+    font-weight: 400;
+    outline-offset: 0;
+    line-height: normal;
+}
+textarea:focus, input:focus
+{
+  outline: none;
+}
+
+.filling__block__email::-webkit-input-placeholder,
+.filling__block__name::-webkit-input-placeholder { 
+    color:#EDEDF2; 
+} 
+.filling__block__email:focus::-webkit-input-placeholder,
+.filling__block__name:focus::-webkit-input-placeholder{ 
+    color: #000000; 
+} 
+.filling__block__email:focus,
+.filling__block__name:focus {
+    background: red;
+   font-weight: 700;
+    border: 2px solid black;
+    color: black;
+}   
+.filling__sub {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 40px;
+    background: var(--primary, #46F4DB);
+    margin: 0px 0px 17px 0px;
+    padding: 25px 54px;
+    flex-shrink: 0;
+    color: var(--black, #07060B);
+    text-align: center;
+    font-family: Muller;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.filling__checkbox {
+    display: none;
+}
+
+.checkbox__container {
+  display: flex;
+}
+.check {
+    margin: 0px 0px 24px 0px;
+    color: var(--white, #FFF);
+    font-family: Muller;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+}
+.check::before {
+    content: " ";
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background: none;
+    vertical-align: middle;
+    margin: -2px 8px 0px 0px;
+    border: 1px solid white;
+}
+.filling__checkbox:checked + .check::before {
+    border: 1px solid rgba(255, 255, 255, 0);
+    background-image: url(/img/filling/Check.svg);
+}
+.filling__picture__block {
+    position: relative;
+}
+.filling__picture {
+    position: absolute;
+    width: 788px;
+    height: 391px;
+}
